@@ -1,0 +1,440 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698621014235532, "dur":1996, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014237536, "dur":419, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698621014238005, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698621014238030, "dur":560, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698621014238629, "dur":689, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014239318, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014443972, "dur":1311, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445283, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445292, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445295, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445302, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445305, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445311, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445313, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445319, "dur":31, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445350, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445357, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445359, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445366, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445368, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445376, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445378, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445384, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445386, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445391, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445394, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445399, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445402, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445408, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445410, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445416, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445430, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014445459, "dur":2288, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698621014238782, "dur":575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014239357, "dur":7902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014247269, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1698621014247453, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014247848, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1698621014247973, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248074, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248229, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248343, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248405, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248511, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248566, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248666, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248717, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248814, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248865, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014248961, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014249022, "dur":1388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014250411, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014250622, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014250828, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251194, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251311, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251370, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251468, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251525, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251633, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251692, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251819, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698621014251876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698621014263902, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1698621014264885, "dur":179123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014239011, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014239426, "dur":7844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014247271, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698621014247457, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014247832, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698621014247976, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248189, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248267, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248368, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248462, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248564, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014248634, "dur":890, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014249525, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014249690, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014249799, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014249857, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014250008, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014250266, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014250373, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014250544, "dur":886, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251431, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251526, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251576, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251627, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251725, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698621014251864, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014258138, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1698621014259719, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698621014259757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698621014259762, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1698621014261670, "dur":182285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014238901, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014239387, "dur":7871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014247269, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1698621014247465, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014247833, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698621014247931, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014248035, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014248151, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014248302, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014248366, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014248478, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014249139, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014249335, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014249534, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014249998, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014250930, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014251071, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698621014251819, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014251924, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698621014251984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698621014297990, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1698621014303848, "dur":140158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014239125, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014239457, "dur":7799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014247268, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1698621014247544, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014247623, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1698621014247698, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248029, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248229, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248294, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248469, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248597, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248655, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248754, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248803, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014248904, "dur":991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014249896, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014250341, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014251034, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014251162, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698621014251598, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014251727, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698621014251798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014252656, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698621014255015, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698621014255057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014255064, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1698621014257540, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698621014257598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014257604, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1698621014258928, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698621014258984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014258992, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1698621014260198, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1698621014260291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698621014260301, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1698621014261873, "dur":182135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014239212, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014239463, "dur":7797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014247269, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698621014247541, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014247879, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014247994, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248236, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248297, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248420, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248472, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248579, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248632, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248737, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248787, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248882, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014248930, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249333, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249387, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249485, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249536, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249699, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249759, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249883, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014249964, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014250069, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251014, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251220, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251281, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251388, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251467, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014251587, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698621014252033, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014252105, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698621014252143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698621014308499, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698621014311550, "dur":132428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014239342, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014239342, "dur":7911, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247268, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247273, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247537, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247540, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247618, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1698621014247690, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248034, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248308, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248432, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248493, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248596, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248658, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248771, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248835, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248941, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014248999, "dur":867, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014249867, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014250598, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014250709, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251288, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251399, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251456, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251505, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251557, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251604, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251768, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251878, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1698621014251943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698621014291926, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1698621014293636, "dur":150371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014239458, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014239458, "dur":7799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014247269, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698621014247456, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014247854, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014247978, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248219, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248290, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248421, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248480, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248589, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248653, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248778, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014248837, "dur":485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014249323, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014249384, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014249716, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014249775, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014249912, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250095, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250208, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250362, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250489, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250656, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014250759, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251076, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251185, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251244, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251292, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251343, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251389, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251447, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251545, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251595, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251702, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1698621014251786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014252538, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1698621014255205, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698621014255267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014255278, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698621014256725, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698621014256765, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014256782, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698621014257956, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698621014258001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014258006, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698621014259321, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698621014259362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698621014259367, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698621014261793, "dur":182212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014239578, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014239578, "dur":7690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014247269, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698621014247454, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248075, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248206, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248310, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248373, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248484, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248536, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248641, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248696, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248796, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014248962, "dur":752, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014249715, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014249775, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014249878, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014250612, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014250728, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014250910, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251022, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251101, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251210, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251265, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251369, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251425, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251516, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251759, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251877, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698621014251941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698621014284635, "dur":4876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698621014289550, "dur":154455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014239685, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014239685, "dur":7581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014247269, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1698621014247446, "dur":292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014247739, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698621014247816, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248019, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248216, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248270, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248327, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248429, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248485, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248594, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248648, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248765, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248815, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248912, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014248968, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014249209, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014249313, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014249423, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014249508, "dur":1551, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251060, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251411, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251524, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251760, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251871, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698621014251934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698621014279114, "dur":133906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1698621014443931, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1698621014443933, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014239794, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014239794, "dur":7488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014247283, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1698621014247448, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014247939, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248058, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248198, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248257, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248361, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248420, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248522, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248574, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248670, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248722, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248820, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014248870, "dur":864, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014249735, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014250096, "dur":814, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014250911, "dur":1253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698621014252164, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014252239, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1698621014252343, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014252418, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1698621014253054, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014253137, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698621014253181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014253193, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698621014257734, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1698621014257773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014257777, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1698621014258873, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698621014258928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014258936, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1698621014260327, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1698621014260501, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698621014260609, "dur":183348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014239844, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014239845, "dur":7419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014247268, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1698621014247454, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014247853, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698621014247961, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248052, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248235, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248349, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248406, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248505, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248558, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248656, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248709, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248804, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248858, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014248974, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014249313, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014249418, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014249682, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014249951, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014250325, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014250540, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014250861, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251026, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251522, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251629, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251687, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251816, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698621014251880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698621014269674, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698621014270999, "dur":172978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014239930, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014239930, "dur":7341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014247271, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1698621014247459, "dur":588, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248048, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248191, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248309, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248536, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248708, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248769, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014248874, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249018, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249319, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249505, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249690, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249749, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014249855, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250081, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250187, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250406, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250536, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250730, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014250847, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251108, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251216, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251272, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251390, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251452, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251505, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251672, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251851, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1698621014251907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698621014274546, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ashle/Documents/DIG3480/Unity Projects/KartingMicrogame/Karting_Builds/Karting_Microgame_Mods_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":12, "ts":1698621014277020, "dur":166944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698621014450256, "dur":2421, "ph":"X", "name": "ProfilerWriteOutput" }
+,
